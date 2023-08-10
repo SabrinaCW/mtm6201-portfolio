@@ -1,0 +1,874 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Space Mono', monospace; */
+
+/*******************
+****** MOBILE ******/
+@media screen and (max-width: 600px) {
+   body h2,
+  p {
+    font-family: 'Space Mono', monospace;
+  }
+
+  .blockquote {
+    color: #B23501;
+    font-weight: bold;
+    line-height: 10px;
+  }
+
+  figure {
+    padding-bottom: 50px;
+  }
+
+  main h3 {
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    color: #B23501;
+    text-align: center;
+    padding: 20px;
+  }
+
+  /* Banner Styling */
+  main {
+    margin: 0 auto;
+    padding: 50px;
+  }
+
+  .header {
+    margin: 0 auto;
+  }
+
+  /* Additional Styles */
+  .container {
+    margin: 0 auto;
+  }
+
+  /* Navigation Styling */
+  .main-nav {
+    background-color:#B23501;
+    width: 400;
+    background-image: url(../images/mobilebanner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+  }
+
+  .nav-about .nav-contact {
+    background-color: #ffffff;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+  }
+
+  .second-nav .nav-list a {
+    background-color: #ffffff;
+    padding: 0;
+    color:#B23501;
+  }
+
+  .nav-list {
+    list-style-type: column;
+    margin: 0;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+  }
+
+  .nav-list li {
+    display: block;
+  }
+
+  .nav-list a {
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: transform 1s;
+    text-decoration: none;
+  }
+
+  .nav-list a:hover {
+    color: #F0A031;
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* Additional Styles */
+  .header {
+    margin: 0 auto;
+  }
+
+  main p {
+    line-height: 36px;
+    font-size: 22px;
+    padding-top: 20px;
+    font-style: italic;
+  }
+
+  main h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .picture-about .picture-projects img {
+    width: 200px;
+    text-align: center;
+  }
+
+  .image-container img {
+    width: 250px;
+    opacity: 0.4;
+    align-items: center;
+  }
+
+  .creation {
+    padding-top: 0px;
+  }
+
+  .form-label {
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+  }
+
+  button {
+    border-style: solid;
+    border-color: #E67D52;
+    background-color: #E67D52;
+    margin: 15px 0px 50px;
+    border-radius: 10px;
+    font-family: 'Space Mono', monospace;
+    padding: 0em 2em 0em 2em;
+    font-weight: bold;
+  }
+
+  button:hover {
+    border-style: solid;
+    border-color: #000000;
+    background-color: white;
+    color: #B23501;
+    border-radius: 10px;
+  }
+
+  /* About Us */
+  .about {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .about h2 {
+    font-size: 22px;
+    text-align: left;
+    color: #B23501;
+  }
+
+  ul {
+    list-style-type: circle;
+  }
+
+  ul li {
+    font-family: 'Inter', sans-serif;
+    line-height: 25px;
+  }
+
+  .about p {
+    font-size: 16px;
+    text-align: left;
+    font-style: inherit;
+    line-height: 25px;
+    font-family: 'Inter', sans-serif;
+    padding: 0%;
+    margin: 0 auto;
+  }
+
+  .col-md-6 {
+    padding: 0%;
+  }
+
+  .about img {
+    width: 340px;
+    height: auto;
+    padding-top: 10%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 20px;
+  }
+
+  .journey {
+    padding-top: 10%;
+  }
+
+  .profile {
+    padding-top: 10%;
+  }
+
+  #sabrina h3 {
+    text-align: center;
+  }
+
+  /* Projects */
+  img .picture-design .picture-branding {
+    width: 400px;
+    border-color: #000000;
+    border-style: solid;
+    opacity: 0.4;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .image-container img {
+    transition: transform 0.9s ease;
+    /* Smooth transition for the hover effect */
+  }
+
+  .image-container:hover img {
+    transform: scale(1.1);
+    /* Increase the size of the image on hover */
+  }
+
+  .panetteria h1 {
+    text-align: left;
+    font-family:'Space Mono', monospace;
+    font-weight: bold;
+  }
+
+  .panetteria p {
+    font-family: 'Inter', sans-serif;
+    font-style:normal;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0 auto;
+    padding: 0px;
+    padding-bottom: 10px;
+  }
+
+  .picture-case img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+  }
+
+  /* Contact Styling */
+  .platform p {
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    text-align: center;
+    margin-left: 10px;
+    padding-top: 0px;
+  }
+
+
+  /* Footer */
+  footer p {
+    font-family: 'Space Mono', monospace;
+    color: #B23501;
+    text-align: center;
+    padding: 10px;
+  }
+
+  footer {
+    background-color: #000000;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
+
+  .copy {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .fa-linkedin {
+    color: #0077B5;
+    text-align: right;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+  body h2,
+  p {
+    font-family: 'Space Mono', monospace;
+  }
+
+  .blockquote {
+    color: #B23501;
+    font-weight: bold;
+    line-height: 10px;
+  }
+
+  figure {
+    padding-bottom: 50px;
+  }
+
+  main h3 {
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    color: #B23501;
+    text-align: center;
+    padding: 20px;
+  }
+
+  /* Banner Styling */
+  main {
+    margin: 0 auto;
+    padding: 50px;
+  }
+
+  .header {
+    margin: 0 auto;
+  }
+
+  /* Additional Styles */
+  .container {
+    margin: 0 auto;
+  }
+
+  /* Navigation Styling */
+  .main-nav {
+    background-color:#B23501;
+    width: 400;
+    background-image: url(../images/mobilebanner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+  }
+
+  .nav-about .nav-contact {
+    background-color: #ffffff;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+  }
+
+  .nav-list {
+    list-style-type: column;
+    margin: 0;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+  }
+
+  .nav-list li {
+    display: block;
+  }
+
+  .nav-list a {
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: transform 1s;
+    text-decoration: none;
+  }
+
+  .nav-list a:hover {
+    color: #F0A031;
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* Additional Styles */
+  .header {
+    margin: 0 auto;
+  }
+
+  main p {
+    line-height: 36px;
+    font-size: 22px;
+    padding-top: 20px;
+    font-style: italic;
+  }
+
+  main h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .picture-about .picture-projects img {
+    width: 200px;
+    text-align: center;
+  }
+
+  .image-container img {
+    width: 250px;
+    opacity: 0.4;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .creation {
+    padding-top: 0px;
+  }
+
+  .form-label {
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+  }
+
+  button {
+    border-style: solid;
+    border-color: #E67D52;
+    background-color: #E67D52;
+    margin: 15px 0px 50px;
+    border-radius: 10px;
+    font-family: 'Space Mono', monospace;
+    padding: 0em 2em 0em 2em;
+    font-weight: bold;
+  }
+
+  button:hover {
+    border-style: solid;
+    border-color: #000000;
+    background-color: white;
+    color: #B23501;
+    border-radius: 10px;
+  }
+
+  /* About Us */
+  .about {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .about h2 {
+    font-size: 22px;
+    text-align: left;
+    color: #B23501;
+  }
+
+  ul {
+    list-style-type: circle;
+  }
+
+  ul li {
+    font-family: 'Inter', sans-serif;
+    line-height: 25px;
+  }
+
+  .about p {
+    font-size: 16px;
+    text-align: left;
+    font-style: inherit;
+    line-height: 25px;
+    font-family: 'Inter', sans-serif;
+    padding: 0%;
+    margin: 0 auto;
+  }
+
+  .about img {
+    width: 440px;
+    height: auto;
+    padding-top: 10%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 20px;
+  }
+
+  .journey {
+    padding-top: 10%;
+  }
+
+  .profile {
+    padding-top: 10%;
+  }
+
+  #sabrina h3 {
+    text-align: center;
+  }
+
+  /* Projects */
+  img .picture-design .picture-branding {
+    width: 400px;
+    border-color: #000000;
+    border-style: solid;
+    opacity: 0.4;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .image-container img {
+    transition: transform 0.9s ease;
+    /* Smooth transition for the hover effect */
+  }
+
+  .image-container:hover img {
+    transform: scale(1.1);
+    /* Increase the size of the image on hover */
+  }
+
+  .panetteria img {
+    width: 700px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .panetteria h1 {
+    text-align: left;
+    font-family:'Space Mono', monospace;
+    font-weight: bold;
+  }
+
+  .panetteria p {
+    font-family: 'Inter', sans-serif;
+    font-style:normal;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 20px;
+  }
+
+  /* Contact Styling */
+  .platform p {
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    text-align: center;
+    margin-left: 10px;
+    padding-top: 0px;
+  }
+
+
+  /* Footer */
+  footer p {
+    font-family: 'Space Mono', monospace;
+    color: #B23501;
+    text-align: center;
+    padding: 10px;
+  }
+
+  footer {
+    background-color: #000000;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
+
+  .copy {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .fa-linkedin {
+    color: #0077B5;
+    text-align: right;
+  }
+}
+
+
+
+/*******************
+  ****** DESKTOP ******/
+@media screen and (min-width: 990px) {
+
+  body h2,
+  p {
+    font-family: 'Space Mono', monospace;
+  }
+
+  .blockquote {
+    color: #B23501;
+  }
+
+  figure {
+    padding-bottom: 50px;
+  }
+
+  main h3 {
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    color: #B23501;
+    text-align: center;
+    padding: 20px;
+  }
+
+  /* Banner Styling */
+  main {
+    margin: 0 auto;
+    padding: 50px;
+  }
+
+  .header {
+    margin: 0 auto;
+  }
+
+  .banner {
+    font-size: 85px;
+    margin-bottom: 10px;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+  }
+
+
+  /* Additional Styles */
+  .container {
+    margin: 0 auto;
+  }
+
+  /* Navigation Styling */
+  .main-nav {
+    background-color: #ffffff;
+    width: auto;
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-position: center;
+    height: 535px;
+  }
+
+  .nav-list {
+    list-style-type: none;
+    background-color: #ffffff;
+    opacity: 0.7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+  }
+
+  .nav-list li {
+    display: inline-flex;
+  }
+
+  .nav-list a {
+    color: #B23501;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: transform 1s;
+    text-decoration: none;
+  }
+
+  .nav-list a:hover {
+    color: #F0A031;
+  }
+
+  .logo {
+    width: 120px;
+    height: 120px;
+  }
+
+  /* Additional Styles */
+  .header {
+    margin: 0 auto;
+  }
+
+  main p {
+    line-height: 36px;
+    font-size: 22px;
+    padding-top: 20px;
+    font-style: italic;
+  }
+
+  main h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .image-container img {
+    width: 420px;
+    display: block;
+  }
+
+  .image-container img {
+    transition: transform 0.9s ease;
+    /* Smooth transition for the hover effect */
+  }
+
+  .image-container:hover img {
+    transform: scale(1.1);
+    /* Increase the size of the image on hover */
+  }
+
+  main .row {
+    align-items: center;
+  }
+
+  .creation {
+    padding-top: 50px;
+  }
+
+  .form-label {
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+  }
+
+  button {
+    border-style: solid;
+    border-color: #E67D52;
+    background-color: #E67D52;
+    margin: 15px 0px 50px;
+    border-radius: 10px;
+    font-family: 'Space Mono', monospace;
+    padding: 0em 2em 0em 2em;
+    font-weight: bold;
+  }
+
+  button:hover {
+    border-style: solid;
+    border-color: #000000;
+    background-color: white;
+    color: #B23501;
+    border-radius: 10px;
+  }
+
+  /* About Us */
+  .about {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+
+  .about h2 {
+    font-size: 22px;
+    text-align: left;
+    color: #B23501;
+  }
+
+  ul {
+    list-style-type: circle;
+  }
+
+  ul li {
+    font-family: 'Inter', sans-serif;
+    line-height: 25px;
+  }
+
+  .about p {
+    font-size: 16px;
+    text-align: left;
+    font-style: inherit;
+    line-height: 25px;
+    font-family: 'Inter', sans-serif;
+    padding: 0%;
+    margin: 0 auto;
+  }
+
+  .col-md-6 {
+    padding: 0%;
+  }
+
+  .about img {
+    width: 340px;
+    height: auto;
+    padding-top: 30%;
+    margin: 0 auto;
+    border-radius: 20px;
+  }
+
+  #sabrina h3 {
+    text-align: center;
+  }
+
+  /* Projects */
+  img .picture-design .picture-branding {
+    width: 400px;
+    border-color: #000000;
+    border-style: solid;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .image-container img {
+    transition: transform 0.9s ease;
+    /* Smooth transition for the hover effect */
+  }
+
+  .image-container:hover img {
+    transform: scale(1.1);
+    /* Increase the size of the image on hover */
+  }
+
+  .panetteria h1 {
+    text-align: center;
+    font-family:'Space Mono', monospace;
+    font-weight: bold;
+  }
+
+  .panetteria p {
+    font-family: 'Inter', sans-serif;
+    font-style:normal;
+    margin: 0 auto;
+    padding: 70px;
+  }
+
+  .picture-case img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Contact Styling */
+  .platform p {
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    text-align: center;
+    margin-left: 10px;
+    padding-top: 0px;
+  }
+
+
+  /* Footer */
+  footer p {
+    font-family: 'Space Mono', monospace;
+    color: #B23501;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  footer {
+    background-color: #000000;
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
+
+  .copy {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .fa-linkedin {
+    color: #0077B5;
+    text-align: right;
+  }
+
+  footer a i {
+    margin: 0 auto;
+  }
+}
