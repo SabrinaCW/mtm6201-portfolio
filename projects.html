@@ -16,21 +16,25 @@
 </head>
 
 <body>
-    <!-- Navigation section -->
-    <header class="container">
-        <!-- Navigation section -->
-        <nav class="second-nav">
-            
+    <!-- Navbar -->
+    <header class="main-nav">
+        <nav>
+            <a href="index.html"><img src="images/logodark.jpg" alt="Sabrina Creation" class="logo-mini"></a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <div>
+                <h1 class="title">PROJECTS</h1>
+            </div>
+
             <ul class="nav-list">
-                <li>
-                    <div>
-                        <a href="index.html"><img  src="images/logolight.jpg" alt="Sabrina Creation" class="logo"></a>
-                    </div>
-                </li>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT ME</a></li>
-                <li><a href="projects.html">PROJECTS</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="index.html"><img src="images/logolight.jpg" alt="Sabrina Creation" class="logo"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -39,31 +43,18 @@
         <div>
             <div class="container">
                 <div class="row">
-                  <div class="col-sm">
-                    <picture class="picture-design">
-                        <source srcset="images/about.jpg" media="(min-width: 900px)" />
-        
-                        <source srcset="images/about.jpg" media="(min-width: 760px)" />
-        
-                        <source srcset="images/about.jpg" media="(min-width: 576px)" />
-        
-                        <img src="images/about.jpg" alt="Sabrina with a camera">
-                        <a href="index.html"><img src="images/logolight.jpg" alt="Sabrina Creation" class="logo"></a>
-                      </picture>
+                    <div class="col-md-6">
+                      <div>
+                        <h2 class="design">UX DESIGN</h2>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div>
+                        <a href="case1.html"><h2 class="branding">BRANDING</h2></a>
+                      </div>
+                    </div>
                   </div>
-                  <div class="col-sm">
-                    <picture class="picture-branding">
-                        <source srcset="images/about.jpg" media="(min-width: 900px)" />
-        
-                        <source srcset="images/about.jpg" media="(min-width: 760px)" />
-        
-                        <source srcset="images/about.jpg" media="(min-width: 576px)" />
-        
-                        <a href="branding.html"><img src="images/about.jpg" alt="Sabrina with a camera"></a>
-                      </picture>
-                  </div>
-                </div>
-              </div>
+            </div>
         </div>
         
     </main>
@@ -73,6 +64,8 @@
         <a href="https://www.linkedin.com/in/sabrinachimanski/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i>
       </a>
     </footer>
+
+    <script src="mobile-navbar.js"></script>
 </body>
 
 </html>

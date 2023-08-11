@@ -16,25 +16,29 @@
 
 <body>
   <!-- Navbar -->
-  <header class="header" id="home">
-    <!-- Navigation section -->
-    <div class="main-nav">
-
+  <header class="main-nav">
+    <nav>
+      <a href="index.html"><img src="images/logodark.jpg" alt="Sabrina Creation" class="logo-mini"></a>
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <div>
+        <h1 class="title">WELCOME TO MY CREATIONS</h1>
+      </div>
+      
       <ul class="nav-list">
-        <li>
-          <div>
-            <a href="index.html"><img src="images/logolight.jpg" alt="Sabrina Creation" class="logo"></a>
-          </div>
-        </li>
+        <li><a href="index.html"><img src="images/logolight.jpg" alt="Sabrina Creation" class="logo"></a></li>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Me</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
-    </div>
+    </nav>
   </header>
-
-
+      
+  
 
 
   <main class="container">
@@ -54,13 +58,13 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <div class="image-container">
-              <a href="about.html"><img src="images/aboutindex.jpg" alt="Sabrina with a camera"></a>
+            <div>
+              <a href="about.html"><h2 class="about-index">ABOUT ME</h2></a>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="image-container">
-              <a href="projects.html"></a><img src="images/projects.jpg" alt="Post it on the wall"></a>
+            <div>
+              <a href="projects.html"><h2 class="projects-index">PROJECTS</h2></a>
             </div>
           </div>
         </div>
@@ -70,7 +74,7 @@
           <form class=" container row g-6">
             <div class="col-6">
               <label for="inputName" class="form-label">Fullname</label>
-              <input type="fullname" class="form-control" id="inputName">
+              <input type="text" class="form-control" id="inputName">
             </div>
             <div class="col-6">
               <label for="inputEmail" class="form-label">Email</label>
@@ -85,6 +89,8 @@
             </div>
           </form>
         </div>
+      </div>
+    </div>    
   </main>
 
   <!-- Footer section -->
@@ -97,10 +103,7 @@
   <!-- Bootstrap JS and jQuery (required for Bootstrap components) -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-
+  <script src="mobile-navbar.js"></script>
 </body>
-
-
-
 
 </html>
